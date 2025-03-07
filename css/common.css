@@ -1,0 +1,45 @@
+:root{
+    --teal: #2ec1ac;
+    --teal_hover: #279e8c;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.h-font{
+    font-family: 'Merienda', cursive;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    appearance: initial;
+    -moz-appearance: textfield;
+}
+.custom-bg{
+    background-color: var(--teal) !important;
+    border: 1px solid var(--teal) !important;
+}
+.custom-bg:hover{
+    background-color: var(--teal_hover) !important;
+    border-color: var(--teal_hover) !important;
+}
+/* .custom-bg{
+    background-color: #2ec1ac;
+}
+
+.custom-bg:hover{
+    background-color: #279e8c;
+} */
+.h-line{
+    width: 150px;
+    margin: 0 auto;
+    height: 1.7px;
+}
+.custom-alert{
+    position: fixed;
+    top: 80px;
+    right: 25px;
+    z-index: 1111;
+}
